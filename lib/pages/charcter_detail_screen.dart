@@ -1,7 +1,6 @@
 import 'package:Our_Martyrs/model/chartcter.dart';
 import 'package:Our_Martyrs/model/styleguide.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 
 class CharacterDetailScreen extends StatefulWidget {
   const CharacterDetailScreen({Key key, this.character}) : super(key: key);

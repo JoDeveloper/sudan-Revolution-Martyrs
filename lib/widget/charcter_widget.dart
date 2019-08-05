@@ -1,5 +1,3 @@
-import 'dart:ui' as prefix0;
-
 import 'package:Our_Martyrs/model/chartcter.dart';
 import 'package:Our_Martyrs/model/styleguide.dart';
 import 'package:Our_Martyrs/pages/charcter_detail_screen.dart';
