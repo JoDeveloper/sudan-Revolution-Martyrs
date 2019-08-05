@@ -14,7 +14,7 @@
 
 
 
-- [developer(joseph): facebook](http://facebook.com/jodeveloper)
+- [developer  (joseph)](http://facebook.com/jodeveloper)
 
 
 # Sudan-Revolution-Martyrss
