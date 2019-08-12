@@ -104,20 +104,16 @@ class CharacterWidget extends StatelessWidget {
                         color: Colors.transparent,
                         child: Container(
                           child: Text(
-                            this.character.name,
+                            "✌  " + this.character.name,
                             style: AppTheme.heading,
                           ),
                         ),
                       ),
                     ),
-                    InkWell(
-                      child: Text(
-                        _text,
-                        style: AppTheme.display3,
-                      ),
-                      onTap: _launchURL,
-                    ),
-                    Text(" ✌ 🇸🇩")
+                    Text(
+                      "🇸🇩",
+                      style: TextStyle(fontSize: 50.0),
+                    )
                   ],
                 ),
               ),

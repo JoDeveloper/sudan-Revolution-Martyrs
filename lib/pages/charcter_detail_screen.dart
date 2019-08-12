@@ -51,7 +51,7 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen> {
                                 Navigator.pop(context);
                               },
                               child: Image.asset(
-                                widget.character.imagePath,
+                                widget.character.image2Path,
                               ),
                             ),
                           )),
