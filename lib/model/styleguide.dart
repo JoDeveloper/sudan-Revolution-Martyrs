@@ -28,7 +28,7 @@ class AppTheme {
   static final TextStyle heading = TextStyle(
     fontFamily: 'Cairo',
     fontWeight: FontWeight.bold,
-    fontSize: 26,
+    fontSize: 24,
     color: Colors.white.withOpacity(0.8),
     letterSpacing: 1.2,
   );

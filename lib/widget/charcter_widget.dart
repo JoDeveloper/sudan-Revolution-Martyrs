@@ -103,16 +103,25 @@ class CharacterWidget extends StatelessWidget {
                       child: Material(
                         color: Colors.transparent,
                         child: Container(
-                          child: Text(
-                            "✌  " + this.character.name,
-                            style: AppTheme.heading,
-                          ),
+                          child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              mainAxisSize: MainAxisSize.max,
+                              children: <Widget>[
+                                Text(
+                                  "✌ " + this.character.name,
+                                  style: AppTheme.heading,
+                                ),
+                              ]),
                         ),
                       ),
                     ),
-                    Text(
-                      "🇸🇩",
-                      style: TextStyle(fontSize: 50.0),
+                    Center(
+                      child: Text(
+                        "🇸🇩",
+                        style: TextStyle(
+                          fontSize: 50.0,
+                        ),
+                      ),
                     )
                   ],
                 ),

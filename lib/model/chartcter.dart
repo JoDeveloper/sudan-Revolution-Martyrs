@@ -36,10 +36,10 @@ List characters = [
   Character(
       name: "كشة",
       imagePath: "assets/images/3.jpg",
-      image2Path: "assets/images/3.jpg",
+      image2Path: "assets/images/3-1.jpg",
       description: """
-         عبدالسلام كشة طالب قانون 
-مهتم ب المجال القانوني وحقوق الانسان وقوانيين النقابات وقوانيين العمل التحقت ب شباب قادر لمزيد من التاهيل وتطوير مقدراتي".
+         عبدالسلام كشة 
+طالب قانون مهتم ب المجال القانوني وحقوق الانسان وقوانيين النقابات وقوانيين العمل التحقت ب شباب قادر لمزيد من التاهيل وتطوير مقدراتي".
 
 الشهيد عبدالسلام كشة عبدالسلام كشة عبدالسلام 
 العمر : 25 سنة 
@@ -233,8 +233,8 @@ _موقفو الثابت اتجاه قضاياه خلقت منو انسان عظ
       colors: [Colors.indigo.shade200, Colors.indigo.shade400]),
   Character(
       name: "محمد عيسى",
-      imagePath: "assets/images/7.jpg",
-      image2Path: "assets/images/7-1.jpg",
+      image2Path: "assets/images/7.jpg",
+      imagePath: "assets/images/7-1.jpg",
       description: """
         محمد عيسى كوكو تيه (دودو)
 العمر : 16 سنة و 9 شهور 
