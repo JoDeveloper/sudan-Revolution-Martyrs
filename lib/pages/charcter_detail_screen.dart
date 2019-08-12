@@ -1,4 +1,4 @@
-import 'package:Our_Martyrs/model/chartcter.dart';
+import 'package:Our_Martyrs/model/charcter.dart';
 import 'package:Our_Martyrs/model/styleguide.dart';
 import 'package:flutter/material.dart';
 
@@ -63,9 +63,12 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen> {
                           tag: "name-${characters[0].name}",
                           child: Material(
                               color: Colors.transparent,
-                              child: Container(
-                                  child: Text(widget.character.name,
-                                      style: AppTheme.heading)))),
+                              child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: <Widget>[
+                                    Text(widget.character.name,
+                                        style: AppTheme.heading),
+                                  ]))),
                     ),
                     InkWell(
                       onTap: () {

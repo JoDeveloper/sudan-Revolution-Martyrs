@@ -1,4 +1,4 @@
-import 'package:Our_Martyrs/model/chartcter.dart';
+import 'package:Our_Martyrs/model/charcter.dart';
 import 'package:Our_Martyrs/model/styleguide.dart';
 import 'package:Our_Martyrs/widget/charcter_widget.dart';
 import 'package:flutter/material.dart';
