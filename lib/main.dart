@@ -1,6 +1,8 @@
-import 'package:Our_Martyrs/pages/chartacters_lidt_screen.dart';
+//import 'package:Our_Martyrs/pages/chartacters_lidt_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import 'pages/martyrs.dart';
 
 void main() {
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.white,
           canvasColor: Colors.white,
           appBarTheme: AppBarTheme(elevation: 0)),
-      home: CharactersListingScreen(),
+      home: Martyrs(),
     );
   }
 }
