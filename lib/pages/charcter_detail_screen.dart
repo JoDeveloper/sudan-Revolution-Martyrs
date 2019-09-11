@@ -64,8 +64,11 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen> {
                           child: Material(
                               color: Colors.transparent,
                               child: Container(
-                                  child: Text(widget.character.name,
-                                      style: AppTheme.heading)))),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Text(widget.character.name,
+                                        style: AppTheme.heading),
+                                  )))),
                     ),
                     InkWell(
                       onTap: () {

@@ -1,6 +1,6 @@
 import 'package:Our_Martyrs/model/chartcter.dart';
-import 'package:Our_Martyrs/model/styleguide.dart';
 import 'package:Our_Martyrs/widget/charcter_widget.dart';
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 
 class CharactersListingScreen extends StatefulWidget {
@@ -47,21 +47,11 @@ class _CharactersListingScreenState extends State<CharactersListingScreen> {
                   alignment: Alignment.topCenter,
                   child: Align(
                     alignment: Alignment.topCenter,
-                    child: RichText(
-                      text: TextSpan(children: [
-                        TextSpan(
-                          text: " شهداء ",
-                          style: AppTheme.display2,
-                        ),
-                        TextSpan(
-                          text: " ثورة ",
-                          style: AppTheme.display2,
-                        ),
-                        TextSpan(
-                          text: " ديسمبر",
-                          style: AppTheme.display2,
-                        ),
-                      ]),
+                    child: RotateAnimatedTextKit(
+                      duration: Duration(milliseconds: 5000),
+                      isRepeatingAnimation: true,
+                      text: ["شهداء", "ثورة", "ديسمبر"],
+                      textStyle: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ),

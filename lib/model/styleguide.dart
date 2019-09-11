@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static const TextStyle display1 = TextStyle(
-    fontFamily: 'Cairo',
+    fontFamily: 'MarkaziText',
     color: Colors.red,
     fontSize: 24,
     fontWeight: FontWeight.w600,
@@ -10,14 +10,14 @@ class AppTheme {
   );
 
   static const TextStyle display2 = TextStyle(
-    fontFamily: 'Cairo',
+    fontFamily: 'MarkaziText',
     color: Colors.blueAccent,
     fontSize: 24,
     fontWeight: FontWeight.normal,
     letterSpacing: 1.1,
   );
   static const TextStyle display3 = TextStyle(
-    fontFamily: 'Cairo',
+    fontFamily: 'MarkaziText',
     color: Colors.purpleAccent,
     fontSize: 12,
     decoration: TextDecoration.underline,
@@ -26,7 +26,7 @@ class AppTheme {
   );
 
   static final TextStyle heading = TextStyle(
-    fontFamily: 'Cairo',
+    fontFamily: 'MarkaziText',
     fontWeight: FontWeight.bold,
     fontSize: 26,
     color: Colors.white.withOpacity(0.8),
@@ -35,9 +35,9 @@ class AppTheme {
 
   static final TextStyle subHeading = TextStyle(
     inherit: true,
-    fontFamily: 'Cairo',
+    fontFamily: 'MarkaziText',
     fontWeight: FontWeight.w500,
-    fontSize: 24,
+    fontSize: 18,
     color: Colors.white.withOpacity(0.8),
   );
 }

@@ -26,8 +26,8 @@ dependencies:
   after_layout: ^1.0.7+2
   flutter_launcher_icons: ^0.7.2+1
   flutter_custom_clippers: ^1.0.4
-  url_launcher: ^5.1.2
-
+  transformer_page_view: ^0.1.6
+  animated_text_kit: ^1.3.1
   polygon_clipper: ^1.0.2
 
 dev_dependencies:
@@ -65,16 +65,14 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Cairo
+    - family: MarkaziText
       fonts:
-        - asset: assets/fonts/Cairo-Light.ttf
-          weight: 400
-        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/MarkaziText-Regular.ttf
           weight: 500
-        - asset: assets/fonts/Cairo-Bold.ttf
+        - asset: assets/fonts/MarkaziText-Bold.ttf
           weight: 600
-        - asset: assets/fonts/Cairo-SemiBold.ttf
-          weight: 700
+        - asset: assets/fonts/MarkaziText-SemiBold.ttf
+          weight: 400
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

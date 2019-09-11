@@ -1,4 +1,5 @@
 //import 'package:Our_Martyrs/pages/chartacters_lidt_screen.dart';
+import 'package:Our_Martyrs/pages/chartacters_lidt_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.white,
           canvasColor: Colors.white,
           appBarTheme: AppBarTheme(elevation: 0)),
-      home: Martyrs(),
+      home: CharactersListingScreen(),
     );
   }
 }

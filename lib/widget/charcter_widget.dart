@@ -4,7 +4,7 @@ import 'package:Our_Martyrs/pages/charcter_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 import 'package:polygon_clipper/polygon_clipper.dart';
-import 'package:url_launcher/url_launcher.dart';
+//import 'package:url_launcher/url_launcher.dart';
 
 class CharacterWidget extends StatelessWidget {
   final String _url = "https://www.facebook.com/jodeveloper8";
@@ -19,11 +19,11 @@ class CharacterWidget extends StatelessWidget {
   final PageController pageController;
 
   _launchURL() async {
-    if (await canLaunch(_url)) {
-      await launch(_url);
-    } else {
-      throw 'Could not launch $_url';
-    }
+//    if (await canLaunch(_url)) {
+//      await launch(_url);
+//    } else {
+//      throw 'Could not launch $_url';
+//    }
   }
 
   @override
@@ -110,14 +110,14 @@ class CharacterWidget extends StatelessWidget {
                         ),
                       ),
                     ),
-                    InkWell(
-                      child: Text(
-                        _text,
-                        style: AppTheme.display3,
-                      ),
-                      onTap: _launchURL,
-                    ),
-                    Text(" ✌ 🇸🇩")
+//                    InkWell(
+//                      child: Text(
+//                        _text,
+//                        style: AppTheme.display3,
+//                      ),
+//                      onTap: _launchURL,
+//                    ),
+                    Text(" ✌ 🇸🇩",style:TextStyle(fontSize: 24.0))
                   ],
                 ),
               ),
