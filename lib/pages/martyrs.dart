@@ -38,6 +38,7 @@ class MartyrsState extends State<Martyrs> {
                   bool active = currentIdx == currentPage;
                   return _buildStoryPage(slideList[currentIdx - 1], active);
                 }
+                return widget;
               }
           );
         }

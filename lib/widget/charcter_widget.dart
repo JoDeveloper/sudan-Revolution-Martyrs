@@ -7,8 +7,8 @@ import 'package:polygon_clipper/polygon_clipper.dart';
 //import 'package:url_launcher/url_launcher.dart';
 
 class CharacterWidget extends StatelessWidget {
-  final String _url = "https://www.facebook.com/jodeveloper8";
-  final String _text = "joseph";
+  // final String _url = "https://www.facebook.com/jodeveloper8";
+  // final String _text = "joseph";
 
   const CharacterWidget(
       {Key key, this.character, this.pageController, this.currentPage})
@@ -18,13 +18,13 @@ class CharacterWidget extends StatelessWidget {
   final int currentPage;
   final PageController pageController;
 
-  _launchURL() async {
-//    if (await canLaunch(_url)) {
-//      await launch(_url);
-//    } else {
-//      throw 'Could not launch $_url';
-//    }
-  }
+//   _launchURL() async {
+// //    if (await canLaunch(_url)) {
+// //      await launch(_url);
+// //    } else {
+// //      throw 'Could not launch $_url';
+// //    }
+//   }
 
   @override
   Widget build(BuildContext context) {
