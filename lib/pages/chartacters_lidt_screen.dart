@@ -50,7 +50,7 @@ class _CharactersListingScreenState extends State<CharactersListingScreen> {
                     child: RotateAnimatedTextKit(
                       duration: Duration(milliseconds: 5000),
                       isRepeatingAnimation: true,
-                      text: ["شهداء", "ثورة", "ديسمبر"],
+                      text: ["لن ننساكم"],
                       textStyle: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold),
                     ),
                   ),
